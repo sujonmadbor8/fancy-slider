@@ -86,7 +86,6 @@ const createSlider = () => {
     duration.innertext = duration;
     if (duration < 0) {
         return alert('Please Enter positive number');
-
     }
     sliders.forEach(slide => {
         let item = document.createElement('div')
